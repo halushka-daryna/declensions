@@ -33,4 +33,4 @@ with gr.Blocks() as demo:
     test2_btn.click(fn=lambda: test_sentence(1), inputs=None, outputs=[text_input, output_table])
     test3_btn.click(fn=lambda: test_sentence(2), inputs=None, outputs=[text_input, output_table])
 
-demo.launch()
+demo.launch(share=True)
